@@ -53,7 +53,7 @@ def get_board_list(board_list, row, column, value):
     return board_list
 
 #TODO: write a function to check the end of game and specifie the wener.
-for _ in range(3):
+for _ in range(4):
     print_board()
     row, column, value = get_user_input()
     while board_list[row][column] in ['X', 'O']:
